@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         supportActionBar?.title = "GitHub Test"
+
         var a:Int = 10
+        supportActionBar?.subtitle = "sub Title : $a"
     }
 }
